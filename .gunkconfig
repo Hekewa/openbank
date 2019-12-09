@@ -17,3 +17,13 @@ command=docgen
 command=scopegen
 go=true
 json=true
+
+[generate java]
+out=src/main/java
+lite
+
+[generate]
+protoc=grpc-java
+out=src/main/java
+lite
+
